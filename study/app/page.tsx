@@ -1,16 +1,19 @@
 import ModeToggle from "@/components/lnd";
 
-ModeToggle;
 export default function Home() {
   return (
     <>
-      <nav>
-        <div className="absolute top-4 right-4">
-          <ModeToggle />
+      <main className="flex justify-center items-center">
+        <div className="flex items-center justify-center">
+          <nav className="absolute top-4 right-4">
+            <div>
+              <ModeToggle />
+            </div>
+          </nav>
         </div>
-      </nav>
-      <main>
-        <p>HELLO WORLD</p>
+        <div>
+          fuck you
+        </div>
       </main>
     </>
   );
