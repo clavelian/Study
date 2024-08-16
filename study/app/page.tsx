@@ -11,8 +11,8 @@ export default function Home() {
             </div>
           </nav>
         </div>
-        <div>
-          fuck you
+        <div className="text-4xl">
+          Whereas disregard and contempt for human rights have resulted
         </div>
       </main>
     </>
