@@ -1,8 +1,12 @@
 "use client";
 import ModeToggle from "@/components/lnd";
+<<<<<<< Updated upstream
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import { useState } from "react";
+=======
+import MyComponent from "@/components/number";
+>>>>>>> Stashed changes
 
 export default function Home() {
   const [value, useValue] = useState(0);
@@ -17,9 +21,13 @@ export default function Home() {
           </nav>
         </div>
         <div className="flex content-center justify-center place-items-center">
+<<<<<<< Updated upstream
           <Button value={1} variant="outline" size="icon">
             <ChevronRight className="h-10 w-10" />
           </Button>
+=======
+          <MyComponent />
+>>>>>>> Stashed changes
         </div>
       </main>
     </>
